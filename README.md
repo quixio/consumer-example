@@ -2,11 +2,9 @@
 
 The official Docker image for consuming data from Kafka with Python using Quix Streams
 
-This application demonstrates how to process data in Kafka with Python using [Quix Streams](https://quix.io/docs/quix-streams/introduction.html). It uses data in a publicly available read-only Kafka cluster and illustrates how to process the data with a stateful hopping window operator.
+This application demonstrates how to consume data from Kafka with Python using [Quix Streams](https://quix.io/docs/quix-streams/introduction.html). It uses data in a publicly available read-only Kafka cluster and illustrates how to consume the data.
 
-This application assumes the data will contain a field called `my_value`.
-
-You can adapt this code to suit your needs.
+You can adapt this code to suit your needs for example create a Slack alert or store the messages in an InfluxDB.
 
 ## How to run
 
